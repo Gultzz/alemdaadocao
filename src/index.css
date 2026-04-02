@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 96%;
+    --foreground: 30 12% 18%;
+
+    --card: 40 30% 97%;
+    --card-foreground: 30 12% 18%;
+
+    --popover: 40 30% 97%;
+    --popover-foreground: 30 12% 18%;
+
+    --primary: 36 58% 44%;
+    --primary-foreground: 40 33% 99%;
+
+    --secondary: 90 20% 78%;
+    --secondary-foreground: 30 12% 18%;
+
+    --muted: 40 22% 91%;
+    /* Contraste ~7:1 com fundo em texto pequeno (WCAG AAA texto normal) */
+    --muted-foreground: 30 12% 38%;
+
+    --accent: 90 25% 85%;
+    --accent-foreground: 30 12% 18%;
+
+    --destructive: 0 72% 42%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 36 18% 85%;
+    --input: 36 18% 85%;
+    --ring: 36 58% 38%;
+
+    --radius: 0.625rem;
+
+    --hero-bg: 90 24% 80%;
+    --hero-overlay: 90 20% 75%;
+    --cta-bg: 36 58% 44%;
+    --cta-hover: 36 62% 38%;
+    --section-alt: 40 28% 93%;
+    --footer-bg: 40 20% 95%;
+    --gold-accent: 36 58% 44%;
+    --sage: 90 20% 78%;
+    --sage-dark: 90 15% 36%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased text-base;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display text-balance;
+  }
+
+  p {
+    @apply text-pretty;
+  }
+
+  ::selection {
+    @apply bg-primary/20 text-foreground;
+  }
+}
+
+/* Foco visível — teclado e leitores (WCAG 2.4.7) */
+@layer utilities {
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+
+  .focus-ring-inset {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset;
+  }
+}
+
+@layer components {
+  /* Skip link: fora do ecrã até receber foco (teclado) */
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 100;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius);
+    background: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25;
+    text-decoration: none;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.12);
+    outline: none;
+  }
+
+  .skip-link:focus,
+  .skip-link:focus-visible {
+    left: 1rem;
+    top: 1rem;
+    position: fixed;
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
