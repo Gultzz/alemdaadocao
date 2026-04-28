@@ -1,0 +1,136 @@
+{
+  "header": {
+    "title": "Beyond Adoption",
+    "nav": {
+      "book": "The Book",
+      "summary": "What You Will Find",
+      "faq": "FAQ",
+      "author": "Author"
+    },
+    "buyAmazon": "Buy on Amazon",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu"
+  },
+  "hero": {
+    "tag": "Real account + 20 questions about adoption",
+    "title": "Beyond Adoption",
+    "description": "An account from someone who was <1>adopted at 10 months old</1>, with questions that help <3>demystify adoption</3>. An honest invitation: adopting does not guarantee a \"happily ever after\" — it is the <5>beginning of a journey</5> of challenges, discoveries, and daily learning.",
+    "buyAmazon": "Buy on Amazon",
+    "insideBook": "Inside the book",
+    "quote": "\"Adopting is starting a new story — with truths that deserve to be spoken aloud.\""
+  },
+  "narrative": {
+    "stats": {
+      "questions": { "value": "20", "label": "questions", "hint": "answered in the book" },
+      "pages": { "value": "20", "label": "pages", "hint": "direct reading · Kindle eBook" },
+      "release": { "value": "2026", "label": "release", "hint": "BELS FONTS publisher" }
+    },
+    "tag": "About the book",
+    "title": "Demystifying adoption with a true story",
+    "p1": "This is not a cold manual: it's a <1>personal account</1> traversed by <3>20 questions</3> that clarify real doubts about the adoption process — for those thinking about adopting, families living this choice, and anyone who wants to understand without romanticizing.",
+    "p2": "The book shows that <1>adopting does not automatically mean a \"happily ever after\"</1> — and that this doesn't diminish love. It means recognizing the <3>start of a journey</3> marked by challenges, discoveries, and lessons that renew every day.",
+    "p3": "In Portuguese, in an agile format for straightforward reading: ideal for those seeking <1>clarity, warmth, and information</1> without fairy tale filters.",
+    "details": {
+      "title": "Edition Details (eBook)",
+      "subtitle": "Useful info for purchase and reading on Amazon.",
+      "list1": "<1>ASIN B0GTTR8138</1> · Portuguese · Screen reader compatible · Page Flip enabled",
+      "list2": "Amazon Categories: <1>Parenting & Relationships</1> · <3>Family & Relationships</3>"
+    }
+  },
+  "duality": {
+    "title": "What you take from this book",
+    "subtitle": "Beauty and complexity walk together. Knowing what to expect — including what doesn't come ready in a dream package — is the first step towards a more conscious and sustainable adoption.",
+    "lightsTitle": "Why it's worth reading",
+    "shadowsTitle": "What the book does not promise",
+    "lights": [
+      { "title": "Truth with warmth", "desc": "A lived account that names feelings and situations many families recognize but rarely see in books." },
+      { "title": "20 clarifying questions", "desc": "Direct answers to common questions about adoption — without judgment, with information and sensitivity." },
+      { "title": "For parents, future parents, and the curious", "desc": "Useful for those in the process, those who have adopted, and those who want to understand adoption beyond clichés." }
+    ],
+    "shadows": [
+      { "title": "Not a fairy tale promise", "desc": "The book does not sell an automatic happy ending: it talks about grief, expectations, and adjustments — because bonds are built over time." },
+      { "title": "Identity and belonging", "desc": "Touches on real issues of those born in one story and growing up in another — with honesty." },
+      { "title": "Bonds require presence", "desc": "Love and choice do not cancel out challenges; this book helps see the journey with less guilt and more clarity." }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Questions about the content, the book's message, and purchasing. The full 20 questions are in the ebook.",
+    "items": [
+      { "q": "Is the book Beyond Adoption fiction or a real account?", "a": "It is a personal account from someone adopted at 10 months old, combined with 20 questions that help demystify the adoption process — information and experience, without empty romanticization." },
+      { "q": "How many questions about adoption does the book answer?", "a": "There are 20 questions, designed to clarify common doubts and bring readers closer to the reality of adoption, with accessible language." },
+      { "q": "Does the ebook say adoption is always 'happily ever after'?", "a": "No. The book makes it clear that adopting doesn't automatically guarantee a fairy tale ending — and presents adoption as the start of a journey with challenges, discoveries, and daily learning." },
+      { "q": "Where can I buy the Beyond Adoption (Kindle) book?", "a": "On Amazon, by ASIN B0GTTR8138 — Portuguese eBook, with Page Flip and screen reader compatibility. Use the 'Buy on Amazon' button on this page to go straight to the product page." },
+      { "q": "What is the price of the ebook?", "a": "The value is set on Amazon and may vary by promotions. Always check the product page (ASIN B0GTTR8138) for the current price." },
+      { "q": "When is the physical version coming out?", "a": "The idea is to release the physical version within a year after the ebook launch. The physical edition should bring extras and, in some cases, the option to buy an autographed copy — follow the author's updates." },
+      { "q": "Is there a difference between the ebook and the future physical version?", "a": "Yes: the physical version is planned with extra materials and the possibility of an autographed kit in channels indicated by the author." },
+      { "q": "Who is the book suitable for?", "a": "For couples and families considering adoption, those who have already adopted, professionals who follow families, and anyone who wants to understand adoption more deeply and with fewer myths — especially in the context of parenting and relationships." }
+    ]
+  },
+  "author": {
+    "tag": "Author · BELS FONTS Publisher",
+    "title": "A voice born from this story",
+    "p1": "I was <1>adopted at 10 months old</1> — and this mark traverses everything I write. Not to glamorize nor to dramatize: to <3>name the real</3>, welcome those in the middle of the process, and offer questions and answers I wish I had found earlier.",
+    "p2": "My mission with \"Beyond Adoption\" is for the word <1>adoption</1> to be associated with <3>truth, care, and realistic hope</3> — never replacing one family with another as if swapping parts, but recognizing a bond that is chosen and rebuilt every day.",
+    "nextBooks": {
+      "tag": "Under construction, calmly",
+      "title": "More stories are on the way",
+      "p1": "<1>Beyond Adoption</1> does not close the door on what's still to come. I continue to write with the same curiosity and responsibility: each new text is born from real conversations, study time, and living alongside families and narratives that asked to be told with care — without a rush that sacrifices the truth.",
+      "p2": "The <1>next books</1> emerge gradually: some are already in preparation or revision; others are still finding the right tone. They will be <3>published as they find the right format and timing</3>, always with the commitment to combine accounts, information, and listening, in the same spirit as this first step.",
+      "p3": "If this book spoke to you, stay tuned to the publisher's news and the author's channels: more chapters of this journey are on the way."
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "bels.fonts@gmail.com",
+      "phone": "+55 (41) 99875-6388"
+    },
+    "education": {
+      "tag": "Education",
+      "title": "Courses that traverse what I write",
+      "subtitle": "To support text and account with rigor, I sought training that dialogues with childhood, adolescence, family, and rights. Below are the courses I took — each left marks on how I read the world and choose every word.",
+      "count": "{{count}} courses",
+      "courses": [
+        "Introduction to adoption of children and adolescents",
+        "Child and Adolescent Statute",
+        "Introduction to human rights",
+        "Responsible parenting",
+        "Introduction to organizational psychology",
+        "Introduction to infractions and socio-educational measures",
+        "Introduction to family law",
+        "Tutorship Council",
+        "Rights of children and adolescents",
+        "Youth rights",
+        "High-complexity special social protection",
+        "Introduction to criminal psychology"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Take the account and 20 questions to your Kindle",
+    "desc1": "Portuguese eBook, published by BELS FONTS, 20 pages of direct reading — ideal for anyone who wants to <1>demystify adoption</1> honestly and go beyond the ready-made \"happily ever after\" discourse.",
+    "desc2": "Found in Parenting and Family categories on Amazon — check reviews, price, and store ranking on the official book page.",
+    "buyAmazon": "Buy on Amazon"
+  },
+  "footer": {
+    "title": "Beyond Adoption",
+    "desc": "Book about adoption: account of someone adopted at 10 months and 20 questions that demystify the process. BELS FONTS Publisher · Kindle eBook · ASIN B0GTTR8138",
+    "nav": {
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy",
+      "contact": "Contact"
+    },
+    "copyright": "© {{year}} Bels Fonts · BELS FONTS. All rights reserved."
+  },
+  "skipLink": "Skip to main content",
+  "notFound": {
+    "tag": "Error 404",
+    "title": "Page not found",
+    "desc": "The address you tried to open doesn't exist or has been moved.",
+    "back": "Back to Home"
+  },
+  "language": {
+    "pt": "Portuguese",
+    "en": "English",
+    "es": "Spanish"
+  }
+}

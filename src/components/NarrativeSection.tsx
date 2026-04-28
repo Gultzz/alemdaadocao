@@ -1,27 +1,30 @@
 import { BookOpen, HelpCircle, Calendar, Sparkles, Library } from "lucide-react";
-
-const stats = [
-  {
-    icon: HelpCircle,
-    value: "20",
-    label: "perguntas",
-    hint: "respondidas no livro",
-  },
-  {
-    icon: BookOpen,
-    value: "20",
-    label: "páginas",
-    hint: "leitura objetiva · eBook Kindle",
-  },
-  {
-    icon: Calendar,
-    value: "2026",
-    label: "lançamento",
-    hint: "editora BELS FONTS",
-  },
-] as const;
+import { useTranslation, Trans } from "react-i18next";
 
 const NarrativeSection = () => {
+  const { t } = useTranslation();
+
+  const stats = [
+    {
+      icon: HelpCircle,
+      value: t("narrative.stats.questions.value"),
+      label: t("narrative.stats.questions.label"),
+      hint: t("narrative.stats.questions.hint"),
+    },
+    {
+      icon: BookOpen,
+      value: t("narrative.stats.pages.value"),
+      label: t("narrative.stats.pages.label"),
+      hint: t("narrative.stats.pages.hint"),
+    },
+    {
+      icon: Calendar,
+      value: t("narrative.stats.release.value"),
+      label: t("narrative.stats.release.label"),
+      hint: t("narrative.stats.release.hint"),
+    },
+  ] as const;
+
   return (
     <section
       id="livro"
@@ -42,38 +45,44 @@ const NarrativeSection = () => {
           <div className="lg:col-span-5 lg:pt-1">
             <p className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-background/80 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-primary backdrop-blur-sm">
               <Sparkles className="h-3.5 w-3.5 shrink-0" aria-hidden />
-              Sobre o livro
+              {t("narrative.tag")}
             </p>
             <h2
               id="livro-heading"
               className="mt-5 text-3xl font-bold leading-[1.15] text-foreground md:text-4xl lg:text-[2.35rem]"
             >
-              Desmistificando a adoção com um relato verdadeiro
+              {t("narrative.title")}
             </h2>
             <div className="mt-6 h-px w-16 bg-gradient-to-r from-primary to-transparent" aria-hidden />
             <p className="mt-6 text-[1.02rem] leading-relaxed text-muted-foreground">
-              Este não é um manual frio: é um <strong className="font-semibold text-foreground">relato pessoal</strong>{" "}
-              atravessado por <strong className="font-semibold text-foreground">20 perguntas</strong> que esclarecem
-              dúvidas reais sobre o processo de adoção — para quem pensa em adotar, para famílias que já vivem essa
-              escolha e para quem quer entender sem romantizar.
+              <Trans
+                i18nKey="narrative.p1"
+                components={{
+                  1: <strong className="font-semibold text-foreground" />,
+                  3: <strong className="font-semibold text-foreground" />,
+                }}
+              />
             </p>
           </div>
 
           <div className="space-y-8 lg:col-span-7">
             <div className="rounded-2xl border border-border/80 bg-background/80 p-6 shadow-sm backdrop-blur-sm md:p-8">
               <p className="leading-relaxed text-muted-foreground">
-                O livro mostra que{" "}
-                <strong className="font-semibold text-foreground">
-                  adotar não significa, automaticamente, um &quot;felizes para sempre&quot;
-                </strong>{" "}
-                — e que isso não diminui o amor. Significa reconhecer o{" "}
-                <strong className="font-semibold text-foreground">início de uma jornada</strong> marcada por desafios,
-                descobertas e aprendizados que se renovam no dia a dia.
+                <Trans
+                  i18nKey="narrative.p2"
+                  components={{
+                    1: <strong className="font-semibold text-foreground" />,
+                    3: <strong className="font-semibold text-foreground" />,
+                  }}
+                />
               </p>
               <p className="mt-5 border-l-2 border-primary/45 pl-4 leading-relaxed text-muted-foreground">
-                Em português, em formato ágil para leitura direta: ideal para quem busca{" "}
-                <strong className="font-semibold text-foreground">clareza, acolhimento e informação</strong> sem filtros de
-                conto de fadas.
+                <Trans
+                  i18nKey="narrative.p3"
+                  components={{
+                    1: <strong className="font-semibold text-foreground" />,
+                  }}
+                />
               </p>
             </div>
 
@@ -99,22 +108,30 @@ const NarrativeSection = () => {
                   <Library className="h-5 w-5" aria-hidden />
                 </div>
                 <div className="min-w-0 flex-1">
-                  <h3 className="font-display text-base font-semibold text-foreground">Detalhes da edição (eBook)</h3>
-                  <p className="mt-1 text-xs text-muted-foreground">Informações úteis para compra e leitura na Amazon.</p>
+                  <h3 className="font-display text-base font-semibold text-foreground">{t("narrative.details.title")}</h3>
+                  <p className="mt-1 text-xs text-muted-foreground">{t("narrative.details.subtitle")}</p>
                   <ul className="mt-4 space-y-3 text-sm text-muted-foreground" role="list">
                     <li className="flex gap-3">
                       <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary/70" aria-hidden />
                       <span>
-                        <span className="font-medium text-foreground">ASIN B0GTTR8138</span> · Português · Compatível com
-                        leitor de tela · Page Flip habilitado
+                        <Trans
+                          i18nKey="narrative.details.list1"
+                          components={{
+                            1: <strong className="font-medium text-foreground" />,
+                          }}
+                        />
                       </span>
                     </li>
                     <li className="flex gap-3">
                       <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary/70" aria-hidden />
                       <span>
-                        Categorias na Amazon:{" "}
-                        <span className="text-foreground">Paternidade e relacionamentos</span> ·{" "}
-                        <span className="text-foreground">Família e relacionamentos</span>
+                        <Trans
+                          i18nKey="narrative.details.list2"
+                          components={{
+                            1: <strong className="font-medium text-foreground" />,
+                            3: <strong className="font-medium text-foreground" />,
+                          }}
+                        />
                       </span>
                     </li>
                   </ul>

@@ -1,7 +1,9 @@
 import bookCover from "@/assets/book-cover.png";
+import { useTranslation, Trans } from "react-i18next";
 import { AMAZON_PRODUCT_URL, externalLinkProps } from "@/lib/constants";
 
 const HeroSection = () => {
+  const { t } = useTranslation();
   return (
     <section
       className="relative flex min-h-[88vh] items-center overflow-hidden bg-hero pt-[5.25rem] md:min-h-[90vh]"
@@ -19,17 +21,20 @@ const HeroSection = () => {
       <div className="container relative mx-auto max-w-6xl px-6 py-12 md:grid md:grid-cols-2 md:items-center md:gap-12 md:py-16">
         <div className="animate-fade-up space-y-6">
           <p className="inline-block rounded-full border border-primary/15 bg-primary/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-primary">
-            Relato real + 20 perguntas sobre adoção
+            {t("hero.tag")}
           </p>
           <h1 id="hero-heading" className="text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-6xl">
-            Além da Adoção
+            {t("hero.title")}
           </h1>
           <p className="max-w-lg text-lg leading-relaxed text-muted-foreground">
-            O relato de quem foi <strong className="font-semibold text-foreground">adotada aos 10 meses de vida</strong>, com
-            perguntas que ajudam a <strong className="font-semibold text-foreground">desmistificar a adoção</strong>. Um
-            convite honesto: adotar não é garantia de &quot;felizes para sempre&quot; — é o{" "}
-            <strong className="font-semibold text-foreground">início de uma jornada</strong> de desafios, descobertas e
-            aprendizados diários.
+            <Trans
+              i18nKey="hero.description"
+              components={{
+                1: <strong className="font-semibold text-foreground" />,
+                3: <strong className="font-semibold text-foreground" />,
+                5: <strong className="font-semibold text-foreground" />,
+              }}
+            />
           </p>
           <div className="flex flex-wrap gap-3 pt-2 sm:gap-4">
             <a
@@ -38,13 +43,13 @@ const HeroSection = () => {
               aria-label="Comprar o eBook na Amazon Brasil. Abre numa nova aba."
               className="focus-ring inline-flex min-h-[44px] items-center justify-center rounded-lg bg-primary px-7 py-3 font-semibold text-primary-foreground transition-opacity hover:opacity-95"
             >
-              Comprar na Amazon
+              {t("hero.buyAmazon")}
             </a>
             <a
               href="#livro"
               className="focus-ring inline-flex min-h-[44px] items-center justify-center rounded-lg border border-foreground/20 px-7 py-3 font-semibold text-foreground transition-colors hover:bg-foreground/5"
             >
-              Por dentro do livro
+              {t("hero.insideBook")}
             </a>
           </div>
         </div>
@@ -61,7 +66,7 @@ const HeroSection = () => {
             />
             <figcaption className="absolute -bottom-2 right-0 z-20 max-w-[min(100%,240px)] rounded-xl border border-border bg-card p-4 shadow-lg sm:-bottom-4 sm:-right-4 sm:max-w-[220px]">
               <blockquote className="text-sm italic leading-snug text-muted-foreground">
-                <p>&quot;Adotar é começar uma história nova — com verdades que merecem ser ditas em voz alta.&quot;</p>
+                <p>{t("hero.quote")}</p>
               </blockquote>
             </figcaption>
           </figure>

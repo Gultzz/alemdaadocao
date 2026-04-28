@@ -1,0 +1,136 @@
+{
+  "header": {
+    "title": "Más allá de la Adopción",
+    "nav": {
+      "book": "El Libro",
+      "summary": "Qué encontrarás",
+      "faq": "Preguntas frecuentes",
+      "author": "Autora"
+    },
+    "buyAmazon": "Comprar en Amazon",
+    "openMenu": "Abrir menú de navegación",
+    "closeMenu": "Cerrar menú de navegación"
+  },
+  "hero": {
+    "tag": "Relato real + 20 preguntas sobre adopción",
+    "title": "Más allá de la Adopción",
+    "description": "El relato de alguien que fue <1>adoptada a los 10 meses de vida</1>, con preguntas que ayudan a <3>desmitificar la adopción</3>. Una invitación honesta: adoptar no es garantía de \"felices para siempre\" — es el <5>inicio de un viaje</5> de desafíos, descubrimientos y aprendizaje diario.",
+    "buyAmazon": "Comprar en Amazon",
+    "insideBook": "Dentro del libro",
+    "quote": "\"Adoptar es comenzar una nueva historia — con verdades que merecen ser dichas en voz alta.\""
+  },
+  "narrative": {
+    "stats": {
+      "questions": { "value": "20", "label": "preguntas", "hint": "respondidas en el libro" },
+      "pages": { "value": "20", "label": "páginas", "hint": "lectura directa · eBook Kindle" },
+      "release": { "value": "2026", "label": "lanzamiento", "hint": "Editorial BELS FONTS" }
+    },
+    "tag": "Sobre el libro",
+    "title": "Desmitificando la adopción con una historia real",
+    "p1": "Este no es un manual frío: es un <1>relato personal</1> atravesado por <3>20 preguntas</3> que aclaran dudas reales sobre el proceso de adopción — para quienes piensan adoptar, familias que ya viven esta elección y cualquiera que quiera entender sin romantizar.",
+    "p2": "El libro muestra que <1>adoptar no significa automáticamente un \"felices para siempre\"</1> — y que eso no disminuye el amor. Significa reconocer el <3>inicio de un viaje</3> marcado por desafíos, descubrimientos y lecciones que se renuevan cada día.",
+    "p3": "En portugués, en formato ágil de lectura directa: ideal para quienes buscan <1>claridad, calidez e información</1> sin filtros de cuentos de hadas.",
+    "details": {
+      "title": "Detalles de la edición (eBook)",
+      "subtitle": "Información útil para la compra y lectura en Amazon.",
+      "list1": "<1>ASIN B0GTTR8138</1> · Portugués · Compatible con lectores de pantalla · Page Flip habilitado",
+      "list2": "Categorías en Amazon: <1>Paternidad y relaciones</1> · <3>Familia y relaciones</3>"
+    }
+  },
+  "duality": {
+    "title": "Qué te llevas de este libro",
+    "subtitle": "La belleza y la complejidad caminan juntas. Saber qué esperar — incluyendo lo que no viene empacado como un sueño — es el primer paso hacia una adopción más consciente y sostenible.",
+    "lightsTitle": "Por qué vale la pena leerlo",
+    "shadowsTitle": "Lo que el libro no promete",
+    "lights": [
+      { "title": "Verdad con calidez", "desc": "Un relato vivido que nombra sentimientos y situaciones que muchas familias reconocen pero rara vez ven en los libros." },
+      { "title": "20 preguntas aclaratorias", "desc": "Respuestas directas a dudas comunes sobre adopción — sin juzgar, con información y sensibilidad." },
+      { "title": "Para padres, futuros padres y curiosos", "desc": "Útil para quienes están en el proceso, quienes ya han adoptado y quienes quieren entender la adopción más allá de los clichés." }
+    ],
+    "shadows": [
+      { "title": "No promete cuentos de hadas", "desc": "El libro no vende un final feliz automático: habla de duelo, expectativas y ajustes — porque el vínculo se construye con el tiempo." },
+      { "title": "Identidad y pertenencia", "desc": "Toca temas reales de quienes nacieron en una historia y crecen en otra — con honestidad." },
+      { "title": "El vínculo exige presencia", "desc": "El amor y la elección no cancelan los desafíos; este libro ayuda a ver el viaje con menos culpa y más claridad." }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Preguntas sobre el contenido, el mensaje del libro y la compra. Las 20 preguntas completas están en el ebook.",
+    "items": [
+      { "q": "¿El libro Más allá de la Adopción es ficción o un relato real?", "a": "Es un relato personal de alguien adoptada a los 10 meses de vida, combinado con 20 preguntas que ayudan a desmitificar el proceso de adopción — información y experiencia, sin romantización vacía." },
+      { "q": "¿Cuántas preguntas sobre adopción responde el libro?", "a": "Son 20 preguntas, diseñadas para aclarar dudas frecuentes y acercar a los lectores a la realidad de la adopción, con un lenguaje accesible." },
+      { "q": "¿El ebook dice que la adopción es siempre un 'felices para siempre'?", "a": "No. El libro deja claro que adoptar no garantiza automáticamente un final de cuento de hadas — y presenta la adopción como el inicio de un viaje con desafíos, descubrimientos y aprendizaje diario." },
+      { "q": "¿Dónde compro el libro Más allá de la Adopción (Kindle)?", "a": "En Amazon, con el ASIN B0GTTR8138 — eBook en portugués, con Page Flip y compatible con lectores de pantalla. Usa el botón 'Comprar en Amazon' en esta página para ir directo a la página del producto." },
+      { "q": "¿Cuál es el precio del ebook?", "a": "El valor se define en Amazon y puede variar por promociones. Consulta siempre la página del producto (ASIN B0GTTR8138) para el precio actual." },
+      { "q": "¿Cuándo sale la versión física?", "a": "La idea es lanzar la versión física dentro del año posterior al lanzamiento del ebook. La edición física debería incluir extras y, en algunos casos, la opción de comprar una copia firmada — sigue las novedades de la autora." },
+      { "q": "¿Hay alguna diferencia entre el ebook y la futura versión física?", "a": "Sí: la versión física está planeada con materiales adicionales y la posibilidad de un kit firmado en los canales indicados por la autora." },
+      { "q": "¿Para quién está indicado el libro?", "a": "Para parejas y familias que consideran la adopción, aquellos que ya han adoptado, profesionales que acompañan a las familias y cualquiera que quiera entender la adopción con más profundidad y menos mitos — especialmente en el contexto de paternidad y relaciones." }
+    ]
+  },
+  "author": {
+    "tag": "Autora · Editorial BELS FONTS",
+    "title": "Una voz que nació de esta historia",
+    "p1": "Fui <1>adoptada a los 10 meses de vida</1> — y esta marca atraviesa todo lo que escribo. No para glamorizar ni dramatizar: para <3>nombrar lo real</3>, acoger a quienes están en el medio del proceso y ofrecer preguntas y respuestas que desearía haber encontrado antes.",
+    "p2": "Mi misión con \"Más allá de la Adopción\" es que la palabra <1>adopción</1> se asocie con <3>verdad, cuidado y esperanza realista</3> — nunca reemplazar una familia por otra como si se intercambiaran piezas, sino reconocer un vínculo que se elige y se reconstruye todos los días.",
+    "nextBooks": {
+      "tag": "En construcción, con calma",
+      "title": "Hay más historias en camino",
+      "p1": "<1>Más allá de la Adopción</1> no cierra la puerta a lo que está por venir. Sigo escribiendo con la misma curiosidad y responsabilidad: cada nuevo texto nace de conversaciones reales, tiempo de estudio y de vivir junto a familias y narrativas que pedían ser contadas con cuidado — sin prisas que sacrifiquen la verdad.",
+      "p2": "Los <1>próximos libros</1> surgen poco a poco: algunos ya están en preparación o revisión; otros aún buscan el tono correcto. Serán <3>publicados a medida que encuentren el formato y el momento adecuados</3>, siempre con el compromiso de combinar relato, información y escucha, con el mismo espíritu de este primer paso.",
+      "p3": "Si este libro te habló, mantente atento a las novedades de la editorial y a los canales de la autora: hay más capítulos de este viaje en camino."
+    },
+    "contact": {
+      "title": "Contacto",
+      "email": "bels.fonts@gmail.com",
+      "phone": "+55 (41) 99875-6388"
+    },
+    "education": {
+      "tag": "Formación",
+      "title": "Cursos que atraviesan lo que escribo",
+      "subtitle": "Para sustentar el texto y relato con rigor, busqué formaciones que dialogan con la infancia, adolescencia, familia y derechos. Abajo están los cursos que realicé — cada uno dejó huellas en cómo leo el mundo y elijo cada palabra.",
+      "count": "{{count}} cursos",
+      "courses": [
+        "Introducción a la adopción de niños y adolescentes",
+        "Estatuto del Niño y del Adolescente",
+        "Introducción a los derechos humanos",
+        "Paternidad responsable",
+        "Introducción a la psicología organizacional",
+        "Introducción a infracciones y medidas socioeducativas",
+        "Introducción al derecho de familia",
+        "Consejo Tutelar",
+        "Derechos del niño y del adolescente",
+        "Derechos de la juventud",
+        "Protección social especial de alta complejidad",
+        "Introducción a la psicología criminal"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Lleva el relato y las 20 preguntas a tu Kindle",
+    "desc1": "eBook en portugués, publicado por BELS FONTS, 20 páginas de lectura directa — ideal para quienes desean <1>desmitificar la adopción</1> honestamente y salir del discurso prefabricado de \"felices para siempre\".",
+    "desc2": "Encuéntralo en las categorías Paternidad y Familia en Amazon — consulta reseñas, precio y ranking en la página oficial del libro.",
+    "buyAmazon": "Comprar en Amazon"
+  },
+  "footer": {
+    "title": "Más allá de la Adopción",
+    "desc": "Libro sobre adopción: relato de alguien adoptada a los 10 meses y 20 preguntas que desmitifican el proceso. Editorial BELS FONTS · eBook Kindle · ASIN B0GTTR8138",
+    "nav": {
+      "terms": "Términos de uso",
+      "privacy": "Privacidad",
+      "contact": "Contacto"
+    },
+    "copyright": "© {{year}} Bels Fonts · BELS FONTS. Todos los derechos reservados."
+  },
+  "skipLink": "Ir al contenido principal",
+  "notFound": {
+    "tag": "Error 404",
+    "title": "Página no encontrada",
+    "desc": "La dirección que intentaste abrir no existe o ha sido movida.",
+    "back": "Volver al inicio"
+  },
+  "language": {
+    "pt": "Portugués",
+    "en": "Inglés",
+    "es": "Español"
+  }
+}

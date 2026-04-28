@@ -1,17 +1,20 @@
 import { useState, useId } from "react";
 import { Menu, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { AMAZON_PRODUCT_URL, externalLinkProps } from "@/lib/constants";
-
-const navLinks = [
-  { href: "#livro", label: "O livro" },
-  { href: "#sumario", label: "O que você encontra" },
-  { href: "#faq", label: "Perguntas frequentes" },
-  { href: "#autora", label: "Autora" },
-] as const;
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
+  const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
   const menuId = useId();
+
+  const navLinks = [
+    { href: "#livro", label: t("header.nav.book") },
+    { href: "#sumario", label: t("header.nav.summary") },
+    { href: "#faq", label: t("header.nav.faq") },
+    { href: "#autora", label: t("header.nav.author") },
+  ] as const;
 
   return (
     <header role="banner" className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/85 backdrop-blur-md supports-[backdrop-filter]:bg-background/70">
@@ -21,7 +24,7 @@ const Header = () => {
           className="focus-ring font-display text-lg font-semibold text-foreground rounded-md"
         >
           <span className="sr-only">Página inicial — </span>
-          Além da Adoção
+          {t("header.title")}
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground" aria-label="Secções da página">
           {navLinks.map(({ href, label }) => (
@@ -30,21 +33,24 @@ const Header = () => {
             </a>
           ))}
         </nav>
-        <a
-          href={AMAZON_PRODUCT_URL}
-          {...externalLinkProps}
-          aria-label="Comprar o eBook na Amazon Brasil. Abre numa nova aba."
-          className="focus-ring hidden min-h-[44px] min-w-[44px] items-center justify-center rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-95 md:inline-flex"
-        >
-          Comprar na Amazon
-        </a>
+        <div className="hidden md:flex items-center gap-4">
+          <LanguageSwitcher />
+          <a
+            href={AMAZON_PRODUCT_URL}
+            {...externalLinkProps}
+            aria-label="Comprar o eBook na Amazon Brasil. Abre numa nova aba."
+            className="focus-ring hidden min-h-[44px] min-w-[44px] items-center justify-center rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-95 md:inline-flex"
+          >
+            {t("header.buyAmazon")}
+          </a>
+        </div>
         <button
           type="button"
           onClick={() => setMenuOpen((o) => !o)}
           className="focus-ring inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded-md text-foreground md:hidden"
           aria-expanded={menuOpen}
           aria-controls={menuId}
-          aria-label={menuOpen ? "Fechar menu de navegação" : "Abrir menu de navegação"}
+          aria-label={menuOpen ? t("header.closeMenu") : t("header.openMenu")}
         >
           {menuOpen ? <X size={24} aria-hidden /> : <Menu size={24} aria-hidden />}
         </button>
@@ -55,6 +61,9 @@ const Header = () => {
         className="border-t border-border bg-background px-6 py-4 shadow-lg md:hidden"
       >
         <nav className="flex flex-col gap-1" aria-label="Secções da página">
+          <div className="px-2 py-3">
+            <LanguageSwitcher />
+          </div>
           {navLinks.map(({ href, label }) => (
             <a
               key={href}
@@ -72,7 +81,7 @@ const Header = () => {
             className="focus-ring mt-2 inline-flex min-h-[44px] items-center justify-center rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground"
             onClick={() => setMenuOpen(false)}
           >
-            Comprar na Amazon
+            {t("header.buyAmazon")}
           </a>
         </nav>
       </div>

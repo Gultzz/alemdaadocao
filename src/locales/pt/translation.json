@@ -1,0 +1,136 @@
+{
+  "header": {
+    "title": "Além da Adoção",
+    "nav": {
+      "book": "O livro",
+      "summary": "O que você encontra",
+      "faq": "Perguntas frequentes",
+      "author": "Autora"
+    },
+    "buyAmazon": "Comprar na Amazon",
+    "openMenu": "Abrir menu de navegação",
+    "closeMenu": "Fechar menu de navegação"
+  },
+  "hero": {
+    "tag": "Relato real + 20 perguntas sobre adoção",
+    "title": "Além da Adoção",
+    "description": "O relato de quem foi <1>adotada aos 10 meses de vida</1>, com perguntas que ajudam a <3>desmistificar a adoção</3>. Um convite honesto: adotar não é garantia de \"felizes para sempre\" — é o <5>início de uma jornada</5> de desafios, descobertas e aprendizados diários.",
+    "buyAmazon": "Comprar na Amazon",
+    "insideBook": "Por dentro do livro",
+    "quote": "\"Adotar é começar uma história nova — com verdades que merecem ser ditas em voz alta.\""
+  },
+  "narrative": {
+    "stats": {
+      "questions": { "value": "20", "label": "perguntas", "hint": "respondidas no livro" },
+      "pages": { "value": "20", "label": "páginas", "hint": "leitura objetiva · eBook Kindle" },
+      "release": { "value": "2026", "label": "lançamento", "hint": "editora BELS FONTS" }
+    },
+    "tag": "Sobre o livro",
+    "title": "Desmistificando a adoção com um relato verdadeiro",
+    "p1": "Este não é um manual frio: é um <1>relato pessoal</1> atravessado por <3>20 perguntas</3> que esclarecem dúvidas reais sobre o processo de adoção — para quem pensa em adotar, para famílias que já vivem essa escolha e para quem quer entender sem romantizar.",
+    "p2": "O livro mostra que <1>adotar não significa, automaticamente, um \"felizes para sempre\"</1> — e que isso não diminui o amor. Significa reconhecer o <3>início de uma jornada</3> marcada por desafios, descobertas e aprendizados que se renovam no dia a dia.",
+    "p3": "Em português, em formato ágil para leitura direta: ideal para quem busca <1>clareza, acolhimento e informação</1> sem filtros de conto de fadas.",
+    "details": {
+      "title": "Detalhes da edição (eBook)",
+      "subtitle": "Informações úteis para compra e leitura na Amazon.",
+      "list1": "<1>ASIN B0GTTR8138</1> · Português · Compatível com leitor de tela · Page Flip habilitado",
+      "list2": "Categorias na Amazon: <1>Paternidade e relacionamentos</1> · <3>Família e relacionamentos</3>"
+    }
+  },
+  "duality": {
+    "title": "O que você leva deste livro",
+    "subtitle": "A beleza e a complexidade caminham juntas. Saber o que esperar — inclusive o que não vem pronto em embalagem de sonho — é o primeiro passo para uma adoção mais consciente e sustentável.",
+    "lightsTitle": "Por que vale a leitura",
+    "shadowsTitle": "O que o livro não promete",
+    "lights": [
+      { "title": "Verdade com acolhimento", "desc": "Um relato vivido que nomeia sentimentos e situações que muitas famílias reconhecem, mas poucas vezes veem em livros." },
+      { "title": "20 perguntas que esclarecem", "desc": "Respostas diretas para dúvidas comuns sobre adoção — sem julgamento, com informação e sensibilidade." },
+      { "title": "Para pais, futuros pais e curiosos", "desc": "Útil quem está no processo, quem já adotou e quem quer entender a adoção além dos clichês." }
+    ],
+    "shadows": [
+      { "title": "Não é promessa de conto de fadas", "desc": "O livro não vende um final automático: fala de luto, expectativas e ajustes — porque vínculo se constrói no tempo." },
+      { "title": "Identidade e pertencimento", "desc": "Toca em questões reais de quem nasceu em uma história e cresce em outra — com honestidade." },
+      { "title": "Vínculo exige presença", "desc": "Amor e escolha não cancelam desafios; este livro ajuda a enxergar a jornada com menos culpa e mais clareza." }
+    ]
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "subtitle": "Dúvidas sobre o conteúdo, a mensagem do livro e a compra. As 20 perguntas completas estão no ebook.",
+    "items": [
+      { "q": "O livro Além da Adoção é ficção ou relato real?", "a": "É um relato pessoal de quem foi adotada aos 10 meses de vida, combinado com 20 perguntas que ajudam a desmistificar o processo de adoção — informação e vivência, sem romantização vazia." },
+      { "q": "Quantas perguntas sobre adoção o livro responde?", "a": "São 20 perguntas, pensadas para esclarecer dúvidas frequentes e aproximar leitores da realidade da adoção, com linguagem acessível." },
+      { "q": "O ebook diz que adoção é sempre 'felizes para sempre'?", "a": "Não. O livro deixa claro que adotar não garante automaticamente um final de conto de fadas — e apresenta a adoção como início de uma jornada com desafios, descobertas e aprendizados no dia a dia." },
+      { "q": "Onde compro o livro Além da Adoção (Kindle)?", "a": "Na Amazon, pelo ASIN B0GTTR8138 — eBook em português, com Page Flip e compatível com leitor de tela. Use o botão 'Comprar na Amazon' nesta página para ir direto à página do produto." },
+      { "q": "Qual o preço do ebook?", "a": "O valor é definido na Amazon e pode variar por promoções. Consulte sempre a página do produto (ASIN B0GTTR8138) para o preço atual em reais." },
+      { "q": "Quando sai a versão física?", "a": "A ideia é disponibilizar a versão física em até um ano após o lançamento do ebook. A edição física deve trazer extras e, em alguns casos, opção de compra com autógrafo — acompanhe as novidades da autora." },
+      { "q": "Há diferença entre o ebook e a versão física futura?", "a": "Sim: a versão física está planejada com materiais extras e possibilidade de kit autografado em canais indicados pela autora." },
+      { "q": "O livro é indicado para quem?", "a": "Para casais e famílias que consideram adoção, quem já adotou, profissionais que acompanham famílias e qualquer pessoa que queira entender a adoção com mais profundidade e menos mito — em especial no contexto de paternidade e relacionamentos." }
+    ]
+  },
+  "author": {
+    "tag": "Autora · Editora BELS FONTS",
+    "title": "Uma voz que nasceu dessa história",
+    "p1": "Fui <1>adotada aos 10 meses de vida</1> — e essa marca atravessa tudo o que escrevo. Não para glamourizar nem para dramatizar: para <3>nomear o real</3>, acolher quem está no meio do processo e oferecer perguntas e respostas que eu gostaria de ter encontrado antes.",
+    "p2": "Minha missão com \"Além da Adoção\" é que a palavra <1>adoção</1> se associe a <3>verdade, cuidado e esperança realista</3> — nunca a substituição de uma família por outra como se fosse troca de peça, mas sim ao reconhecimento de um vínculo que se escolhe e se reconstrói todos os dias.",
+    "nextBooks": {
+      "tag": "Em construção, com calma",
+      "title": "Há mais histórias a caminho",
+      "p1": "<1>Além da Adoção</1> não fecha a porta do que ainda está por vir. Continuo a escrever com a mesma curiosidade e a mesma responsabilidade: cada novo texto nasce de conversas reais, de tempo de estudo e de vivência ao lado de famílias e de narrativas que pediram para serem ditas com cuidado — sem pressa que sacrifique a verdade.",
+      "p2": "Os <1>próximos livros</1> surgem aos poucos: alguns já estão em preparação ou revisão; outros ainda escolhem o tom certo. Eles vão sendo <3>publicados conforme encontram o formato e o momento adequados</3>, sempre com o compromisso de juntar relato, informação e escuta, no mesmo espírito deste primeiro passo.",
+      "p3": "Se este livro falou com você, fique atento às novidades da editora e aos canais da autora: há mais capítulos desta jornada a caminho."
+    },
+    "contact": {
+      "title": "Contato",
+      "email": "bels.fonts@gmail.com",
+      "phone": "+55 (41) 99875-6388"
+    },
+    "education": {
+      "tag": "Formação",
+      "title": "Cursos que atravessam o que eu escrevo",
+      "subtitle": "Para sustentar texto e relato com rigor, busquei formações que dialogam com infância, adolescência, família e direitos. Abaixo, os cursos que cursei — cada um deixou marcas na forma como leio o mundo e como escolho cada palavra.",
+      "count": "{{count}} cursos",
+      "courses": [
+        "Introdução à adoção de crianças e adolescentes",
+        "Estatuto da Criança e do Adolescente",
+        "Introdução aos direitos humanos",
+        "Paternidade responsável",
+        "Introdução à psicologia organizacional",
+        "Introdução ao ato infracional e medidas socioeducativas",
+        "Introdução ao direito da família",
+        "Conselho Tutelar",
+        "Direito da criança e do adolescente",
+        "Direitos da juventude",
+        "Proteção social especial de alta complexidade",
+        "Introdução à psicologia criminal"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Leve o relato e as 20 perguntas para o seu Kindle",
+    "desc1": "eBook em português, publicação BELS FONTS, 20 páginas de leitura direta — ideal para quem quer <1>desmistificar a adoção</1> com honestidade e ir além do discurso pronto de \"felizes para sempre\".",
+    "desc2": "Encontrado nas categorias Paternidade e Família na Amazon — confira avaliações, preço e posição na loja na página oficial do livro.",
+    "buyAmazon": "Comprar na Amazon"
+  },
+  "footer": {
+    "title": "Além da Adoção",
+    "desc": "Livro sobre adoção: relato de quem foi adotada aos 10 meses e 20 perguntas que desmistificam o processo. Editora BELS FONTS · eBook Kindle · ASIN B0GTTR8138",
+    "nav": {
+      "terms": "Termos de uso",
+      "privacy": "Privacidade",
+      "contact": "Contato"
+    },
+    "copyright": "© {{year}} Bels Fonts · BELS FONTS. Todos os direitos reservados."
+  },
+  "skipLink": "Ir para o conteúdo principal",
+  "notFound": {
+    "tag": "Erro 404",
+    "title": "Página não encontrada",
+    "desc": "O endereço que você tentou abrir não existe ou foi movido.",
+    "back": "Voltar para o início"
+  },
+  "language": {
+    "pt": "Português",
+    "en": "Inglês",
+    "es": "Espanhol"
+  }
+}
